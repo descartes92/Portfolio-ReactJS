@@ -1,0 +1,198 @@
+.apropos{
+
+  
+   padding-top: 1.5rem;
+   height: 30rem;
+    position: relative;
+
+}
+
+.mon-apropos{
+    
+    width: 100%;
+
+    min-height: 20rem;
+    /* border: tomato 3px solid; */
+    background-color: #FFFFFF;
+    padding: 1rem 0rem;
+
+     
+}
+
+
+
+.mon-apropos h2{
+    display: none;
+}
+
+
+.ma-photo h2{
+    
+    text-align: center;
+      
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    line-height:  1.75rem;
+    font-weight: bold;
+    color: white;
+  
+}
+
+.mon-apropos h3{
+
+    font-size: 1.2rem;
+    font-weight: bold;
+ 
+    text-align: center;
+    line-height: 1.3125rem;
+}
+
+.text{
+
+    /* border: hotpink solid 2px; */
+    margin: 2.8125rem 2.5rem;
+   
+}
+
+.text p {
+
+    font-size: 1rem;
+}
+
+.ma-photo{
+    /* border: 3px solid skyblue; */
+    width:100%;
+    min-height:18rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FFFFFF; */
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+.ma-photo img{
+    margin:2rem 5rem;
+    width: 7.rem;
+    height: 10rem;
+
+}
+
+@media screen and (min-width: 500px){
+
+    
+    .mon-apropos{
+    
+        width: 100%;
+    
+        min-height: 11rem;
+        /* border: tomato 3px solid; */
+       
+        padding: 1rem 0rem;
+    
+         
+    }
+
+    .text{
+
+        /* border: hotpink solid 2px; */
+        margin: 2rem 2.5rem;
+        padding-left: 1rem;
+       
+    }
+    
+}
+
+@media screen and (min-width: 720px){
+
+    .mon-apropos{
+    
+        width: 100%;
+    
+        min-height: 15rem;
+        /* border: tomato 3px solid; */
+       
+        padding: 1rem 0rem;
+    
+         
+    }
+    
+
+    .text {
+
+        margin: 2rem 5rem;
+    
+    }
+
+
+}
+
+@media screen and (min-width: 920px){
+
+    .apropos{
+        display:flex;
+        height: 30rem;
+        margin: 5rem 0;
+        padding-top: 0;
+      
+    }
+
+    .ma-photo{
+
+       
+    }
+
+    .ma-photo h2{
+        display: none;
+    }
+    
+    .ma-photo img{
+
+        /* margin:auto auto; */
+        width: 15rem; 
+         height: 19rem; 
+    
+    }
+
+    .mon-apropos{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .mon-apropos h2{
+        
+      
+        display: block;
+       
+        text-align: center;
+        font-weight: bolder;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        line-height: 1.75rem;
+        font-weight: bold;
+
+    }
+
+    .text {
+
+      
+   
+       
+        
+    }
+
+    .text p{
+
+        font-size: 1rem;
+        
+    }
+    
+
+}

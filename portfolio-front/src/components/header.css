@@ -1,0 +1,112 @@
+.header {
+    position: fixed;;
+    width:100%;
+    height:87.72px;
+    /* border:2px solid red; */
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    background-color: transparent;
+    /* border:2px solid yellow; */
+    z-index: 1000;
+    transition:.2s;
+   
+}
+
+.scrolled{
+position: fixed;
+background-color: black;
+
+}
+
+.header p{
+    margin:0;
+    padding:0;
+}
+
+.name{
+    min-height: 5.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+
+.ancre{
+        
+  display: none;
+
+}
+
+
+.header p:first-child {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
+   
+
+}
+    
+.header p:last-child{
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    letter-spacing: 0.175em;
+    position: relative;
+    left: 2.125rem;
+}
+
+
+
+/* 
+Desktop : au delà de 1024 pixels
+Tablette : entre 600 et 1024 pixels (en mode portrait)
+Mobile : entre 320 et 600 pixels (en mode portrait)
+
+*/
+@media screen and  (min-width: 1024px){
+
+    .header{
+        width: 100%;
+        height:100px;
+
+    }
+ 
+    /* .menu-burger{
+        display:none;
+    } */
+
+    /* .nav-aside{
+        
+        display: none;
+    } */
+
+    .menu-text{
+        display: flex;
+        width:44rem;
+       /* border:wheat 3px solid; */
+        font-size: 1.5rem ;
+    }
+
+ 
+    .ancre{
+
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+   
+    }
+
+    
+.ancre > .active{
+
+    border-bottom: 1px solid white;
+  
+  }
+
+  
+}
+
+

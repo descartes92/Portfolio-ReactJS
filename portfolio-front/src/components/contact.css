@@ -1,0 +1,202 @@
+.contact{
+
+    min-height: 40rem;
+    color: whitesmoke;
+    
+    /* border: yellowgreen solid 3px; */
+
+    margin: auto 4rem;
+
+}
+
+.contact h2{
+
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    line-height: 1.75rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+}
+
+.contact-titre2{
+
+    display: none;
+
+}
+
+.mon-tel, .mon-mail{   
+
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.mon-tel img, .mon-mail img{
+    width: 2rem;
+}
+
+.mon-tel p, .mon-mail p{
+
+    margin:auto 1rem;
+    
+}
+
+.form-user{
+   
+    margin: auto 1rem;
+    min-height: 20rem;
+   
+}
+
+.fmail, .fname{
+
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  
+}
+
+.legend{
+
+   margin-top: 2rem;
+}
+
+input{
+
+    border: 0;
+    background-color: #302E2E;
+    outline: none;
+    color: whitesmoke;
+    border-bottom: 1px solid white;
+    width: 20.5rem;
+    
+}
+
+.btn-submit{
+
+    margin-top: .5rem;  
+    width: 10rem;
+    border:none;
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn-submit:active{
+
+    outline:none;
+}
+
+@media screen and (min-width:576px){
+
+    .contact{
+
+        min-height: 45rem;
+        color: whitesmoke;
+       
+    }
+
+    .contact-icone, .form-user{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: red solid 3px; */
+    }
+
+    .legend{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:900px){ 
+
+    .contact{
+
+        display: flex;
+        flex-direction: row;    
+        min-height: 20rem;
+        width: 57.875rem;
+
+        /* border: orange 3px solid; */
+        padding-bottom: 2rem;
+        position: relative;
+        top:50%;
+        left: 50%;
+        transform: translate(-58%);
+
+    }
+    .contact h2{
+
+        font-size: 2.5rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .contact-icone, .form-user{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 3rem auto;
+        /* padding: 5rem 2rem; */
+        /* border: yellow 3px solid; */
+
+    }
+
+    .contact-titre{
+
+      display: none;
+    
+    }
+
+    .contact-titre2{
+
+        display:flex;
+        justify-content: center;
+        margin: 0 0 5rem 0 ;
+    }
+
+
+    .mon-tel p, .mon-mail p{
+
+        margin:auto 1rem;
+        font-size: 1.125rem; 
+    }
+
+    .mon-tel img, .mon-mail img{
+        width: 4.4375rem;
+    }
+
+    .contact-desktop{
+
+        display:flex;
+        flex-direction: column;
+
+    }
+
+    .fname, .fmail {
+        
+        font-size: 1.125rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+
+    }  
+    .legend{
+
+        text-align: left;
+        font-size: 1.125rem;
+        
+    }
+
+}
+ 
+
+

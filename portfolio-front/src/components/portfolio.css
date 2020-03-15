@@ -1,0 +1,114 @@
+.portfolio{
+    margin-top: 5rem;
+    min-height:148rem ;
+    /* border: greenyellow solid 4px; */
+ }
+
+.portfolio h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    /* line-height: 1.75rem; */
+    font-weight: bold;
+    color: white;
+    /* padding:2rem; */
+   
+}
+
+
+/* ici, le portefolio */
+
+.porte-image{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height:140rem ;
+    /* border:red solid 3px; */
+    padding-top:2rem;
+    
+}
+
+.porte-image img{
+
+
+ width: 16rem;
+
+ margin:1rem 1rem 0rem 1rem;
+ cursor: pointer;
+
+ 
+}
+
+.description{
+    background-color: whitesmoke;
+    height: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20rem;
+
+}
+
+.card-body p{
+
+    text-align: center;
+    font-size: 0.9rem;
+    color: black;
+    box-sizing: content-box;
+
+}
+
+@media screen and (min-width:540px){
+    
+    .portfolio{
+        min-height: 95rem;
+    }
+
+    .porte-image{
+      
+        min-height:90rem ; 
+        /* width: 50rem; */
+        /* border: yellow 2px solid; */
+    }
+
+
+}
+
+@media screen and (min-width:840px){
+
+    
+    .porte-image{
+        padding-top: 0rem;
+        min-height: 88em;
+        width: 40rem;
+        margin:2rem auto; 
+
+    }
+
+}
+
+@media screen and (min-width:940px){
+
+    .portfolio{
+        margin-top: 5rem;
+        min-height:63rem ;
+        /* border: greenyellow solid 4px; */
+     }
+
+     .portfolio h2{
+        font-size: 2.5rem;
+     }
+
+    .porte-image{
+        padding-top: 0rem;
+        min-height: 53em;
+        width: 60rem;
+        margin:2rem auto; 
+        /* border: tomato solid 3px; */
+
+    }
+
+}
